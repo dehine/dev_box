@@ -1,0 +1,18 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - name: nginx
+    apt: pkg=nginx state=latest update_cache=true
+  - name: golang
+    snap: 
+      name: go
+      classic: yes
+  - name: docker
+    snap:
+      name: docker
+  - name: terraform
+    snap:
+      name: terraform
+  - name: nodejs
+    apt: pkg=nodejs state=latest update_cache=true
