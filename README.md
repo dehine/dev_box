@@ -15,3 +15,5 @@ dependencies: Virtualbox (worked with 6.1x, earlier possibly works)
 `exit` to exit your dev dox.
 
 `vagrant halt` to turn it off.
+
+quick tutorial on ssh-ing to vagrant box in vs-code: https://medium.com/@lizrice/ssh-to-vagrant-from-vscode-5b2c5996bc0e
